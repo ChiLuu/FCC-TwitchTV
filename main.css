@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+body {
+    background-image: url("https://images8.alphacoders.com/856/856742.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    min-height: 100%;  
+    min-height: 100vh;
+}
+.container {
+    max-width: 800px !important;
+    margin-top: 2%;
+    padding: 1%;
+}
+.banner {
+    background-color:#DEDEDE;
+    margin-bottom: 3px;
+    border: 1px solid grey;
+}
+.mainTitle {
+    font-size: 4em !important;
+    color: #8843c4; 
+    font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif;
+    font-weight: normal;
+}
+
+.itemList {
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    list-style-type: none;
+    text-align: right;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    
+}
+.allStreams {
+    line-height: 60px;
+}
+.twitchIcon {
+    vertical-align: middle;
+}
+.twitchUser {
+    font-style: normal;
+}
+.twitchUser a, .twitchStatus  a{
+    text-decoration: none;
+    color: white;
+}
+.twitchUser a:visited, .twitchStatus a:visited{
+    text-decoration: none;
+    color: white;
+}
+.twitchUser a:hover, .twitchStatus a:hover{
+    text-decoration: none;
+    color: #FF0DFF;
+    opacity: 0.9;
+}
+.twitchStatus {
+    font-size: 0.8em;
+}
+.itemOn {
+    color: #8843c4; 
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.itemOn:hover {
+    color: #c3bef7; 
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.itemOff {
+    color:grey; 
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.itemOff:hover {
+    color: #8843c4; 
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.logo-icon {
+    width: 60px;
+}
+.online {
+    background-color: #6441A5;
+    font-size: 1.2em;
+    margin-bottom: 2px;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.95;
+}
+.offline {
+    color: grey;
+    font-style: italic;
+    opacity: 0.95;
+    background-color: #17183b;
+    font-size: 1.2em;
+    margin-bottom: 2px;
+    border: 1px solid white;
+    opacity: 0.9;
+}
